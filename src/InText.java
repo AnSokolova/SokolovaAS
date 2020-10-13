@@ -7,7 +7,7 @@ public class InText {
         String S;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("Признак конца ввода строка - 'стоп' ");
-    try (FileWriter fw = new FileWriter("C:\\Users\\Аня\\Desktop\\outTest.txt")){
+    try (FileWriter fw = new FileWriter("InText.txt")){
         do {
             System.out.print(": ");
             S = br.readLine();
